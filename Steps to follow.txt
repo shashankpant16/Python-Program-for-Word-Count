@@ -1,0 +1,7 @@
+Steps to follow:
+1. Import all the requistic libraries i.e BeautifulSoup, requests, urllib, matplotlib.pyplot and pyspark.
+2. Now enter the scraping url and get the request from the site.
+3. After getting the request,  we will read the content of the website in this case "https://en.wikipedia.org/wiki/Machine_learning".
+4. Selected a subtopic, here "Overview".
+5. With the help of pyspark we can count the occurance of the word in that paragraph.
+6. Now we will plot the graph between words and occurance.
